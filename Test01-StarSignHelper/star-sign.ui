@@ -60,7 +60,11 @@
       <property name="title">
        <string>Output</string>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_3"/>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="vbox"/>
+       </item>
+      </layout>
      </widget>
     </item>
    </layout>
@@ -71,7 +75,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>24</height>
+     <height>33</height>
     </rect>
    </property>
   </widget>
